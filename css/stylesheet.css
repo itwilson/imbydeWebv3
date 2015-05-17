@@ -1,0 +1,204 @@
+#header{
+    width:90%;
+    height:80px;
+    background-color:black;
+    opacity:.8;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#menu {
+    width:30px;
+    height:30px;
+    border:1px solid steelblue;
+    border-radius: 3px;
+    padding-top:.1em;
+    /* Firefox */
+    -moz-transition: all .25s ease;
+    /* WebKit */
+    -webkit-transition: all .25s ease;
+    /* Opera */
+    -o-transition: all .25s ease;
+    /* Standard */
+    transition: all .25s ease;
+    animation-direction: reverse;
+    position:relative;
+    top:40px;
+    right:6px;
+    float:right;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+#menu:hover {
+    cursor:pointer;
+    
+}
+
+#menuIcon{
+    padding-left:10%;
+    padding-top:10%;
+    width:80%;
+    height:80%;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+.menu-open{
+    cursor: pointer;
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+#menuClose{
+    width:30px;
+    height:30px; 
+    border:1px solid steelblue;
+    border-radius: 3px;
+    /* Firefox */
+    -moz-transition: all .25s ease;
+    /* WebKit */
+    -webkit-transition: all .25s ease;
+    /* Opera */
+    -o-transition: all .25s ease;
+    /* Standard */
+    transition: all .25s ease;
+    position: relative;
+    margin-top:470px;   
+}
+
+#menuDropdown{
+    background-color:black;
+    opacity: .9;
+    width:200px;
+    height:1px;
+    padding-left:1em;
+    border:1px solid steelblue;
+    border-radius: 3px; 
+    position:relative;
+    float:right;
+    top:82px;
+    right:-33px;
+    /* Firefox */
+    -moz-transition: all .25s ease;
+    /* WebKit */
+    -webkit-transition: all .25s ease;
+    /* Opera */
+    -o-transition: all .25s ease;
+    /* Standard */
+    transition: all .25s ease;
+    color:ghostwhite;
+}
+
+#menuDropdown a {
+    color:steelblue;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;   
+}
+
+#menuDropdown a:hover {
+    color:antiquewhite;   
+}
+
+.menuDropdown-open{
+    height:500px !important;
+    /* Firefox */
+    -moz-transition: all 1s ease;
+    /* WebKit */
+    -webkit-transition: all 1s ease;
+    /* Opera */
+    -o-transition: all 1s ease;
+    /* Standard */
+    transition: all 1s ease;
+}   
+
+.hidden {
+    display: none; 
+}
+
+hr {
+    margin-top: -1em;
+}
+
+h3 {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;   
+   color:beige;
+}
+
+
+
+/*meta Styles*/
+#metaForm {
+    width:800px;
+    padding: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:floralwhite;
+    line-height: 2.5em;
+}
+
+#metaForm label{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;   
+    font-size: 1.25em;
+    margin-right:10px;
+    
+}
+
+#metaForm input{
+    margin-right:20px;
+    font-size: 1.25em;
+    height:1.5em;
+}
+
+#upload {
+    width:300px;
+    height:60px;
+    background-color:#041d33;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    -webkit-user-drag: none;
+    user-drag: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#upload:hover{
+    cursor: pointer;
+    background-color:steelblue;
+    -webkit-box-shadow: 10px 10px 30px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px -13px rgba(0,0,0,0.75);
+}
+
+#upload:active{
+    background-color:steelblue;
+    -webkit-box-shadow: inset 10px 10px 30px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 30px -13px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 30px -13px rgba(0,0,0,0.75);
+}
+    
+    
+
+
+
